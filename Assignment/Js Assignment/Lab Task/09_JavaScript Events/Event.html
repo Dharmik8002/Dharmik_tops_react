@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Event</title>
+  </head>
+  <style>
+    .btn{
+        background-color: #4CAF50;
+        color: #000;
+        padding: 10px;
+        cursor: pointer;
+        border-radius: 8px;
+    }
+  </style>
+  <body>
+    <h1>Hello JavaScript!</h1>
+    <button class="btn">Click Me!</button>
+  </body>
+  <script>
+    // Create a simple webpage with a button that, when clicked, displays an alert saying"Button clicked!" using
+    // JavaScript event listeners.
+    const button = document.querySelector('.btn')
+    button.addEventListener('click', function(){
+        alert("Button Clicked!")
+    })
+
+  </script>
+</html>
