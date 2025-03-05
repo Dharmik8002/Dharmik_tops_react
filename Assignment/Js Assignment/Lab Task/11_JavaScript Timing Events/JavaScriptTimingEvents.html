@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Timing Events</title>
+  </head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: black;
+      color: white;
+      font-size: 3em;
+    }
+  </style>
+  <body>
+    <div id="clock"></div>
+  </body>
+  <script>
+    // Task 1: Write a program that changes the background color of a webpage after 5 seconds using setTimeout().
+    setTimeout(() => {
+      document.body.style.backgroundColor = "red";
+    }, 5000);
+
+    // Task 2: Create a digital clock that updates every second using setInterval().
+
+    function updateClock() {
+      let now = new Date();
+      let hours = now.getHours().toString().padStart(2, "0");
+      let minutes = now.getMinutes().toString().padStart(2, "0");
+      let seconds = now.getSeconds().toString().padStart(2, "0");
+
+      document.getElementById(
+        "clock"
+      ).textContent = `${hours}:${minutes}:${seconds}`;
+    }
+
+    setInterval(updateClock, 1000);
+    updateClock();
+     // Call immediately to prevent initial 1-second delay
+  </script>
+</html>
