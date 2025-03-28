@@ -4,6 +4,7 @@
 import React from "react";
 import Card from "./Card";
 import Counter from "./Counter";
+import Class_state from "./Class_state";
 
 function App() {
   return (
@@ -11,8 +12,8 @@ function App() {
       <div className="my-5">
         <Counter />
       </div>
-      <h1 className="text-center " >This is a card</h1>
-      <div className="container">
+      <h1 className="text-center ">This is a card</h1>
+      {/* <div className="container">
         <div className="row">
           <Card
             name="Dharmik Modi"
@@ -27,7 +28,8 @@ function App() {
             img="https://images.pexels.com/photos/4200831/pexels-photo-4200831.jpeg?auto=compress&cs=tinysrgb&w=600"
           />
         </div>
-      </div>
+      </div> */}
+      <Class_state />
     </>
   );
 }
