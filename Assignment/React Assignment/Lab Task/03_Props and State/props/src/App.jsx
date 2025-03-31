@@ -5,14 +5,15 @@ import React from "react";
 import Card from "./Card";
 import Counter from "./Counter";
 import Class_state from "./Class_state";
+import Func_state from "./Func_state";
 
 function App() {
   return (
     <>
-      <div className="my-5">
+      {/* <div className="my-5">
         <Counter />
       </div>
-      <h1 className="text-center ">This is a card</h1>
+      <h1 className="text-center ">This is a card</h1> */}
       {/* <div className="container">
         <div className="row">
           <Card
@@ -29,7 +30,9 @@ function App() {
           />
         </div>
       </div> */}
-      <Class_state />
+      {/* <Class_state /> */}
+
+      <Func_state />
     </>
   );
 }
