@@ -10,11 +10,11 @@ import Func_state from "./Func_state";
 function App() {
   return (
     <>
-      {/* <div className="my-5">
+      <div className="my-5">
         <Counter />
       </div>
-      <h1 className="text-center ">This is a card</h1> */}
-      {/* <div className="container">
+      <h1 className="text-center ">This is a card</h1>
+      <div className="container">
         <div className="row">
           <Card
             name="Dharmik Modi"
@@ -29,9 +29,8 @@ function App() {
             img="https://images.pexels.com/photos/4200831/pexels-photo-4200831.jpeg?auto=compress&cs=tinysrgb&w=600"
           />
         </div>
-      </div> */}
-      {/* <Class_state /> */}
-
+      </div>
+      <Class_state />
       <Func_state />
     </>
   );
