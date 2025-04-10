@@ -1,13 +1,11 @@
 import React from "react";
-// import User from "./User";
-import Vote from "./Vote";
+import User from "./User";
 import VotingEligibility from "./VotingEligibility ";
 
 function App() {
   return (
     <>
-      {/* <User /> */}
-      {/* <Vote /> */}
+      <User />
       <VotingEligibility />
     </>
   );
