@@ -33,8 +33,8 @@ const Footer = () => {
         <div className="footer-col logo-col">
           <h2>FRESHEAT</h2>
           <p>
-            Phasellus ultricies aliquam volutpat ullamcorper laoreet neque, a
-            lacinia curabitur lacinia mollis
+            {/* Phasellus ultricies aliquam volutpat ullamcorper laoreet neque, a
+            lacinia curabitur lacinia mollis */}
           </p>
           <div className="social-icons">
             <i className="fab fa-facebook-f" />
@@ -66,7 +66,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div className="footer-col contact-form">
+        {/* <div className="footer-col contact-form">
           <h3>Contact Us</h3>
           <p>
             Monday – Friday: <span className="highlight">8am – 4pm</span>
@@ -84,7 +84,7 @@ const Footer = () => {
             <input type="checkbox" />I agree to the{" "}
             <a href="#">Privacy Policy.</a>
           </label>
-        </div>
+        </div> */}
       </div>
     </footer>
   );
