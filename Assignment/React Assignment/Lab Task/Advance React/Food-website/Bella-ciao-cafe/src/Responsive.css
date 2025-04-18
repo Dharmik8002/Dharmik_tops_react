@@ -1,0 +1,55 @@
+@media screen and (max-width: 800px) {
+    .burgar {
+        display: block;
+    }
+
+    #navbar ul {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+    #services {
+        flex-direction: column;
+
+    }
+
+}
+
+@media screen and (max-width: 670px) {
+    #Home::before {
+        position: absolute;
+
+    }
+
+
+
+    #logo {
+        font-size: 18px;
+    }
+
+    #Home h1 {
+        font-size: 3.78rem;
+    }
+
+    #Home p {
+        font-size: 13px;
+    }
+
+
+
+    #clients {
+        display: -webkit-inline-box;
+        width: 100%;
+        overflow-y: scroll;
+    }
+
+    #services .box img {
+        border-radius: 16px;
+    }
+
+    footer {
+        font-size: 12px;
+    }
+}
