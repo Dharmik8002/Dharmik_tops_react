@@ -12,6 +12,9 @@ import Team from "./website/pages/Team";
 import Testimonial from "./website/pages/Testimonial";
 import NoteFound from "./website/pages/NoteFound";
 import Contact from "./website/pages/Contact";
+import Dashboard from "./Admin/pages/Dashboard";
+import AddUser from "./Admin/pages/AddUser";
+import EditUser from "./Admin/pages/EditUser";
 
 function App() {
   return (
@@ -29,6 +32,11 @@ function App() {
           <Route path="/testimonial" element={<Testimonial />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<NoteFound />} />
+
+          {/* Admin side */}
+          <Route path="/dash" element={<Dashboard />} />
+          <Route path="/adduser" element={<AddUser />} />
+          <Route path="/edituser/:id" element={<EditUser />} />
         </Routes>
       </BrowserRouter>
     </>
