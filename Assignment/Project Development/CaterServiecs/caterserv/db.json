@@ -1,14 +1,6 @@
 {
   "users": [
     {
-      "id": "1",
-      "email": "john@gmail.com",
-      "username": "johnd",
-      "password": "m38rmF$",
-      "name": "John don",
-      "img": "https://icons.veryicon.com/png/o/miscellaneous/user-avatar/user-avatar-male-5.png"
-    },
-    {
       "id": "2",
       "email": "morrison@gmail.com",
       "username": "mor_2314",
@@ -18,11 +10,19 @@
     },
     {
       "id": "3",
-      "email": "kevin@gmail.com",
-      "username": "kevinryan",
+      "email": "rahul@gmail.com",
+      "username": "rahul19",
       "password": "kev02937@",
-      "name": "kavin",
+      "name": "Rahul",
       "img": "https://icons.veryicon.com/png/o/miscellaneous/user-avatar/user-avatar-male-5.png"
+    },
+    {
+      "id": "1750857029685",
+      "name": "Dharmik ",
+      "username": "dm@8002",
+      "email": "dharmik8202@gmail.com",
+      "password": "12345",
+      "img": "https://flex-web-media-prod.storage.googleapis.com/2024/10/6-day-workout-routine.jpg"
     }
   ]
 }

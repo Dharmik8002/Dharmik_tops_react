@@ -106,7 +106,7 @@ export const AdminSlice = createSlice({
       .addCase(createUser.fulfilled, (state, action) => {
         state.loading = false;
         state.users.push(action.payload);
-      })
+      }) 
       .addCase(createUser.rejected, (state, action) => {
         state.loading = false;
         state.error = action.payload;
